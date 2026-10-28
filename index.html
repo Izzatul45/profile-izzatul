@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Izzatul Shafa Ummairah</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        .profile {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: white;
+            color: #1e3a8a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 45px;
+            margin: 0 auto 20px;
+            border: 4px solid #bfdbfe;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            background: white;
+            color: #1e3a8a;
+            padding: 10px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 45px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #00000010;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .info div {
+            background: #eff6ff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .info strong {
+            color: #1d4ed8;
+        }
+
+        .hobi {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .hobi-card {
+            background: white;
+            text-align: center;
+            padding: 25px 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #00000010;
+        }
+
+        .emoji {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .hobi-card h3 {
+            color: #1e3a8a;
+        }
+
+        #minat {
+            background: #dbeafe;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                justify-content: center;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0 5px;
+                font-size: 13px;
+            }
+
+            .hero h1 {
+                font-size: 26px;
+            }
+
+            .info, .hobi {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Profil Saya</h2>
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#informasi">Informasi</a>
+            <a href="#hobi">Hobi</a>
+            <a href="#minat">Minat</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="profile">👤</div>
+        <h1>Izzatul Shafa Ummairah</h1>
+        <p>Pelajar SMKN 3 Depok | XI TJKT 1</p>
+        <a href="#tentang" class="button">Kenali Saya</a>
+    </div>
+
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <div class="card">
+            <p>
+                Halo! Nama saya Izzatul Shafa Ummairah.
+                Saya adalah siswi SMKN 3 Depok kelas XI TJKT 1.
+                Saya tertarik dengan dunia teknologi dan komputer.
+                Saya senang mempelajari hal-hal baru, berolahraga,
+                dan mengembangkan kemampuan diri untuk meraih cita-cita.
+            </p>
+        </div>
+    </section>
+
+    <section id="informasi">
+        <h2>Informasi Diri</h2>
+        <div class="card info">
+            <div><strong>Nama:</strong><br>Izzatul Shafa Ummairah</div>
+            <div><strong>Sekolah:</strong><br>SMKN 3 Depok</div>
+            <div><strong>Kelas:</strong><br>XI TJKT 1</div>
+            <div><strong>Jurusan:</strong><br>Teknik Jaringan Komputer dan Telekomunikasi</div>
+            <div><strong>Hobi:</strong><br>Olahraga</div>
+            <div><strong>Minat:</strong><br>Teknologi dan Komputer</div>
+        </div>
+    </section>
+
+    <section id="hobi">
+        <h2>Hobi Saya</h2>
+        <div class="hobi">
+            <div class="hobi-card">
+                <div class="emoji">🏃‍♀️</div>
+                <h3>Olahraga</h3>
+                <p>Menjaga kebugaran tubuh dan kesehatan.</p>
+            </div>
+
+            <div class="hobi-card">
+                <div class="emoji">⚽</div>
+                <h3>Aktivitas Fisik</h3>
+                <p>Melakukan kegiatan yang menyenangkan dan aktif.</p>
+            </div>
+
+            <div class="hobi-card">
+                <div class="emoji">💪</div>
+                <h3>Hidup Sehat</h3>
+                <p>Membiasakan diri untuk tetap aktif dan bugar.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="minat">
+        <h2>Minat dan Tujuan</h2>
+        <div class="card">
+            <h3>💻 Jaringan Komputer</h3>
+            <p>
+                Saya tertarik mempelajari jaringan komputer,
+                konfigurasi router, MikroTik, dan internet.
+            </p>
+            <br>
+
+            <h3>🌐 Pembuatan Website</h3>
+            <p>
+                Saya ingin belajar HTML dan CSS untuk membuat
+                website yang menarik dan bermanfaat.
+            </p>
+            <br>
+
+            <h3>🚀 Tujuan Saya</h3>
+            <p>
+                Saya ingin meningkatkan kemampuan di bidang
+                teknologi, menjadi pribadi yang lebih baik,
+                dan meraih cita-cita di masa depan.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Izzatul Shafa Ummairah | Profil Diri</p>
+    </footer>
+
+</body>
+  </html>
+  
